@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Age Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1><i class="fas fa-calculator"></i> Age Calculator</h1>
+    <p>Find out your exact age in years, months, and days.</p>
+    <form id="age-form">
+      <label for="dob-day"><i class="fas fa-calendar-alt"></i> Enter Your Date of Birth:</label>
+      <div class="dob-inputs">
+        <input type="number" id="dob-day" placeholder="DD" min="1" max="31" required>
+        <input type="number" id="dob-month" placeholder="MM" min="1" max="12" required>
+        <input type="number" id="dob-year" placeholder="YYYY" min="1900" max="2100" required>
+      </div>
+      <button type="submit"><i class="fas fa-check-circle"></i> Calculate Age</button>
+    </form>
+  </div>
+  <!-- Footer and other HTML sections -->
+  <script src="script.js"></script>
+</body>
+</html>
