@@ -1,0 +1,21 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  overflow: hidden;
+  color: #ffffff;
+}
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 2s ease;
+}
